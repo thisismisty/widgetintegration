@@ -30,7 +30,9 @@ sized container.
 
 On the page or template you want the widget to appear add the following code to the <head> section of the page:
 
-```<script src="//stickee-comparison.s3-eu-west-1.amazonaws.com/widget/stickee-comparison-widget-min.js" async></script>```
+```
+<script src="//stickee-comparison.s3-eu-west-1.amazonaws.com/widget/stickee-comparison-widget-min.js" async></script>
+```
 
 This JS snippet only needs to be added once if you are taking both a mobiles and broadband widget.
 
