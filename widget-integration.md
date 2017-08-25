@@ -13,10 +13,12 @@ Adding a widget to your site takes just a snippet of HTML and JS code.
 
 ### Broadband
 [Broadband demo 1](http://example.stickeebroadband.co.uk/?widget=full)
+
 [Broadband demo 2](http://example.stickeebroadband.co.uk/?widget=mini)
 
 ### Mobiles
 [Mobiles demo 1](http://example.stickeebroadband.co.uk/?widget=mini)
+
 [Mobiles demo 2](http://example.stickeebroadband.co.uk/?widget=mini)
 
 The content units are fully responsive, and can be inserted into any page within any
