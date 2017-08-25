@@ -81,7 +81,7 @@ There are two options for 'data-type': "full" or "mini." Mini allows you to choo
 
 The following HTML snippets can be used to pre-filter broadband widgets. Please remember to replace <data-partner> to your partner ID.:
 
-### Broadband Only
+#### Broadband Only
 
 ```
 <div class="stickee-comparison-widget"
@@ -93,7 +93,7 @@ The following HTML snippets can be used to pre-filter broadband widgets. Please 
 </div>
 ```
 
-### Broadband and Phone
+#### Broadband and Phone
 
 ```
 <div class="stickee-comparison-widget"
@@ -106,7 +106,7 @@ The following HTML snippets can be used to pre-filter broadband widgets. Please 
 ```
 
 
-### Broadband, Phone and TV
+#### Broadband, Phone and TV
 
 ```
 <div class="stickee-comparison-widget"
@@ -118,7 +118,7 @@ The following HTML snippets can be used to pre-filter broadband widgets. Please 
 </div>
 ```
 
-### Providers
+#### Providers
 
 For providers, use the following code:
 
@@ -142,9 +142,9 @@ For providers, use the following code:
 | Direct Save  | QvV2OQPjGD  | Vodafone             | KNvj4MPlX4  |
 
 
-## Mobiles
+### Mobiles
 
-### Makes
+#### Makes
 
 The following HTML snippet can be used to pre-filter mobiles widgets based on makes. Please remember to replace <data-partner> to your partner ID.:
 
@@ -172,7 +172,7 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ma
 | HTC         | 13      | ZTE      | 8       |
 | Huawei      | 12      |          |         |
 
-### Models
+#### Models
 
 The following HTML snippet can be used to pre-filter mobiles widgets based on makes and models. Please remember to replace <data-partner> to your partner ID.:
 
@@ -186,9 +186,9 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ma
 </div>
 ```
 
-A full list of available models can be downloaded here. 
+A full list of available models can be downloaded [here](https://docs.google.com/a/stickee.co.uk/spreadsheets/d/1940lJPcX8wB7BAhmeHTN4UzF-vlioNaa6sOJgpjLojA/edit?usp=sharing). 
 
-### Networks
+#### Networks
 
 The following HTML snippet can be used to pre-filter mobiles widgets based on networks. Please remember to replace <data-partner> to your partner ID.:
 
@@ -228,7 +228,7 @@ palette/style guide and this will be applied by Stickee.
 
 We can supply a full list of elements which can be individually styled.
 
-##Further Support
+## Further Support
 
 For further information about Stickee Comparison content units, please contact
 [info@stickeecomparison.co.uk](mailto: info@stickeecomparison.co.uk).
