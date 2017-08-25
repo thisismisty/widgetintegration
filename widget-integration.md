@@ -17,9 +17,9 @@ Adding a widget to your site takes just a snippet of HTML and JS code.
 [Broadband demo 2](http://example.stickeebroadband.co.uk/?widget=mini)
 
 ### Mobiles
-[Mobiles demo 1](http://example.stickeebroadband.co.uk/?widget=mini)
+[Mobiles demo 1](http://example.stickeemobiles.co.uk/?widget=mini)
 
-[Mobiles demo 2](http://example.stickeebroadband.co.uk/?widget=mini)
+[Mobiles demo 2](http://example.stickeemobiles.co.uk/?widget=mini)
 
 The content units are fully responsive, and can be inserted into any page within any
 sized container.
@@ -55,7 +55,7 @@ Please insert the following placeholder element in the page or template where yo
 
 You can change the data-width parameter to suit the layout of your page- this can also be a percentage if required. The widget's height will change dynamically based on the content served. It is recommended that you don’t apply a fixed width unless required.
 
-There are two options for 'data-type': "full" or "mini." Mini reveals the postcode checker initially, then once a postcode has been entered, the results are displayed below.
+There are two options for 'data-type': "full" or "mini." "Mini" reveals the postcode checker initially, then once a postcode has been entered, the results are displayed below.
 
 #### Mobiles
 
@@ -73,7 +73,7 @@ Please insert the following placeholder element in the page or template where yo
 
 You can change the data-width parameter to suit the layout of your page- this can also be a percentage if required. The widget's height will change dynamically based on the content served. It is recommended that you don’t apply a fixed width unless required.
 
-There are two options for 'data-type': "full" or "mini." Mini allows you to choose how many deals your widget displays by default on page load, for example “Mini-5” will display 5 deals, whist “Mini-1” will display 1 deal. 
+There are two options for 'data-type': "full" or "mini." "Mini" allows you to choose how many deals your widget displays by default on page load, for example “Mini-5” will display 5 deals, whist “Mini-1” will display 1 deal. 
 
 ## Pre-filtering deals
 
@@ -89,7 +89,7 @@ The following HTML snippets can be used to pre-filter broadband widgets. Please 
    data-partner="stickee"
    data-type="mini"
    data-width="500"
-   data-filters=”filters[dealtype]=broadband”>
+   data-filters="filters[dealtype]=broadband">
 </div>
 ```
 
@@ -101,7 +101,7 @@ The following HTML snippets can be used to pre-filter broadband widgets. Please 
    data-partner="stickee"
    data-type="mini"
    data-width="500"
-   data-filters=”filters[dealtype]=broadband-phone”>
+   data-filters="filters[dealtype]=broadband-phone">
 </div>
 ```
 
@@ -114,7 +114,7 @@ The following HTML snippets can be used to pre-filter broadband widgets. Please 
    data-partner="stickee"
    data-type="mini"
    data-width="500"
-   data-filters=”filters[dealtype]=broadband-phone-tv”>
+   data-filters="filters[dealtype]=broadband-phone-tv">
 </div>
 ```
 
@@ -128,7 +128,7 @@ For providers, use the following code:
    data-partner="stickee"
    data-type="mini"
    data-width="500"
-   data-filters=”filters[suppliers][]=supplierID”>
+   data-filters="filters[suppliers][]=supplierID">
 </div>
 ```
 | Supplier     | Supplier ID | Supplier             | Supplier ID |
@@ -144,6 +144,20 @@ For providers, use the following code:
 
 ### Mobiles
 
+#### SIM Only widget
+
+The following HTML snippet can be used to create a widget which defaults to SIM Only. Please remember to replace <data-partner> to your partner ID.:
+
+'''
+<div class="stickee-comparison-widget"
+            data-sector="mobiles"
+            data-partner="example"
+            data-type="mini-4"
+            data-dealtype="simo"
+            data-filters="">
+</div>
+'''
+
 #### Makes
 
 The following HTML snippet can be used to pre-filter mobiles widgets based on makes. Please remember to replace <data-partner> to your partner ID.:
@@ -154,7 +168,7 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ma
    data-partner="stickee"
    data-type="mini"
    data-width="500"
-   data-filters=”filters[make]=makeID”>
+   data-filters="filters[make]=makeID">
 </div>
 ```
 
@@ -182,7 +196,7 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ma
    data-partner="stickee"
    data-type="mini"
    data-width="500"
-   data-filters=”filters[make]=makeID”&filters[model]=modelID”>
+   data-filters="filters[make]=makeID&filters[model]=modelID">
 </div>
 ```
 
@@ -198,7 +212,7 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ne
    data-partner="stickee"
    data-type="mini"
    data-width="500"
-   data-filters=”filters[networks]=networkID”>
+   data-filters="filters[networks]=networkID">
 </div>
 ```
 
