@@ -60,12 +60,14 @@ There are two options for 'data-type': "full" or "mini." Mini reveals the postco
 
 Please insert the following placeholder element in the page or template where you would like the widget to appear:
 
-```<div class="stickee-comparison-widget"
+```
+<div class="stickee-comparison-widget"
     data-sector="mobiles"
     data-partner="stickee"
     data-type="mini-5"
     data-width="500">
-</div>```
+</div>
+```
 
 
 You can change the data-width parameter to suit the layout of your page- this can also be a percentage if required. The widget's height will change dynamically based on the content served. It is recommended that you don’t apply a fixed width unless required.
@@ -80,46 +82,54 @@ The following HTML snippets can be used to pre-filter broadband widgets. Please 
 
 ### Broadband Only
 
-```<div class="stickee-comparison-widget"
+```
+<div class="stickee-comparison-widget"
    data-sector="broadband"
    data-partner="stickee"
    data-type="mini"
    data-width="500"
    data-filters=”filters[dealtype]=broadband”>
-</div>```
+</div>
+```
 
 ### Broadband and Phone
 
-```<div class="stickee-comparison-widget"
+```
+<div class="stickee-comparison-widget"
    data-sector="broadband"
    data-partner="stickee"
    data-type="mini"
    data-width="500"
    data-filters=”filters[dealtype]=broadband-phone”>
-</div>```
+</div>
+```
 
 
 ### Broadband, Phone and TV
 
-```<div class="stickee-comparison-widget"
+```
+<div class="stickee-comparison-widget"
    data-sector="broadband"
    data-partner="stickee"
    data-type="mini"
    data-width="500"
    data-filters=”filters[dealtype]=broadband-phone-tv”>
-</div>```
+</div>
+```
 
 ### Providers
 
 For providers, use the following code:
 
-```<div class="stickee-comparison-widget"
+```
+<div class="stickee-comparison-widget"
    data-sector="broadband"
    data-partner="stickee"
    data-type="mini"
    data-width="500"
    data-filters=”filters[suppliers][]=supplierID”>
-</div>```
+</div>
+```
 
 
 BT | ba3lLMM2yA | First Utility | eyxlnJmlNP
@@ -137,13 +147,15 @@ Direct Save | QvV2OQPjGD | Vodafone | KNvj4MPlX4
 
 The following HTML snippet can be used to pre-filter mobiles widgets based on makes. Please remember to replace <data-partner> to your partner ID.:
 
-```<div class="stickee-comparison-widget"
+```
+<div class="stickee-comparison-widget"
    data-sector="mobiles"
    data-partner="stickee"
    data-type="mini"
    data-width="500"
    data-filters=”filters[make]=makeID”>
-</div>```
+</div>
+```
 
 
 Alcatel | 22 | Kodak | 62
@@ -162,13 +174,15 @@ Huawei | 12 |
 
 The following HTML snippet can be used to pre-filter mobiles widgets based on makes and models. Please remember to replace <data-partner> to your partner ID.:
 
-```<div class="stickee-comparison-widget"
+```
+<div class="stickee-comparison-widget"
    data-sector="mobiles"
    data-partner="stickee"
    data-type="mini"
    data-width="500"
    data-filters=”filters[make]=makeID”&filters[model]=modelID”>
-</div>```
+</div>
+```
 
 A full list of available models can be downloaded here. 
 
@@ -176,13 +190,15 @@ A full list of available models can be downloaded here.
 
 The following HTML snippet can be used to pre-filter mobiles widgets based on networks. Please remember to replace <data-partner> to your partner ID.:
 
-```<div class="stickee-comparison-widget"
+```
+<div class="stickee-comparison-widget"
    data-sector="mobiles"
    data-partner="stickee"
    data-type="mini"
    data-width="500"
    data-filters=”filters[networks]=networkID”>
-</div>```
+</div>
+```
 
 Virgin Media | 2 | Freedom Pop | 24
 Three | 3 | LycaMobile | 22
