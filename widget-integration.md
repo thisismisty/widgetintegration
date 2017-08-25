@@ -130,15 +130,15 @@ For providers, use the following code:
    data-filters=”filters[suppliers][]=supplierID”>
 </div>
 ```
-| BT           | ba3lLMM2yA | First Utility        | eyxlnJmlNP |
-|--------------|------------|----------------------|------------|
-| Virgin Media | OBxpm3Zl97 | John Lewis Broadband | WPXpDwR2DN |
-| Plusnet      | Zy1j09olB8 | Now TV               | zGe2GRylMb |
-| Sky          | eDnjZ9VpAr | Origin Broadband     | WyPloLA2zL |
-| TalkTalk     | LwKpE0x25E | Post Office          | VE6jk6bpBr |
-| EE           | eDnjZVVjAr | SSE                  | 8ryp8nxl0x |
-| Direct Save  | QvV2OQPjGD | Vodafone             | KNvj4MPlX4 |
-
+| Supplier     | Supplier ID | Supplier             | Supplier ID |
+|--------------|-------------|----------------------|-------------|
+| BT           | ba3lLMM2yA  | First Utility        | eyxlnJmlNP  |
+| Virgin Media | OBxpm3Zl97  | John Lewis Broadband | WPXpDwR2DN  |
+| Plusnet      | Zy1j09olB8  | Now TV               | zGe2GRylMb  |
+| Sky          | eDnjZ9VpAr  | Origin Broadband     | WyPloLA2zL  |
+| TalkTalk     | LwKpE0x25E  | Post Office          | VE6jk6bpBr  |
+| EE           | eDnjZVVjAr  | SSE                  | 8ryp8nxl0x  |
+| Direct Save  | QvV2OQPjGD  | Vodafone             | KNvj4MPlX4  |
 
 
 ## Mobiles
@@ -157,18 +157,19 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ma
 </div>
 ```
 
-
-Alcatel | 22 | Kodak | 62
-Amazon | 61 | LG | 6
-Apple | 19 | Lenovo | 40
-BlackBerry | 2 | Motorola | 1
-Caterpillar | 56 | Nokia | 4
-Dewalt | 68 | Samsung | 5
-Doro | 42 | Sony | 54
-Google | 15 | Vodafone | 26
-HP | 35 | WileyFox | 66
-HTC | 13 | ZTE | 8
-Huawei | 12 | 
+| Make        | Make ID | Make     | Make ID |
+|-------------|---------|----------|---------|
+| Alcatel     | 22      | Kodak    | 62      |
+| Amazon      | 61      | LG       | 6       |
+| Apple       | 19      | Lenovo   | 40      |
+| BlackBerry  | 2       | Motorola | 1       |
+| Caterpillar | 56      | Nokia    | 4       |
+| Dewalt      | 68      | Samsung  | 5       |
+| Doro        | 42      | Sony     | 54      |
+| Google      | 15      | Vodafone | 26      |
+| HP          | 35      | WileyFox | 66      |
+| HTC         | 13      | ZTE      | 8       |
+| Huawei      | 12      |          |         |
 
 ### Models
 
@@ -200,14 +201,15 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ne
 </div>
 ```
 
-Virgin Media | 2 | Freedom Pop | 24
-Three | 3 | LycaMobile | 22
-O2 | 5 | Plusnet | 25
-Vodafone | 7 | Sky | 26
-EE | 10 | giffgaff | 13
-BT | 17 | Pop Telecom | 16
-ID | 18 | Lebara | 28
-
+| Network      | Network ID | Network     | Network ID |
+|--------------|------------|-------------|------------|
+| Virgin Media | 2          | Freedom Pop | 24         |
+| Three        | 3          | LycaMobile  | 22         |
+| O2           | 5          | Plusnet     | 25         |
+| Vodafone     | 7          | Sky         | 26         |
+| EE           | 10         | giffgaff    | 13         |
+| BT           | 17         | Pop Telecom | 16         |
+| ID           | 18         | Lebara      | 28         |
 
 ## Tracking and Reporting
 
