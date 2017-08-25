@@ -40,12 +40,14 @@ The script will look for a HTML element with the class .stickee-comparison-widge
 
 Please insert the following placeholder element in the page or template where you would like the widget to appear:
 
-```<div class="stickee-comparison-widget"
+```
+<div class="stickee-comparison-widget"
     data-sector="broadband"
     data-partner="stickee"
     data-type="mini"
     data-width="500">
-</div>```
+</div>
+```
 
 
 You can change the data-width parameter to suit the layout of your page- this can also be a percentage if required. The widget's height will change dynamically based on the content served. It is recommended that you don’t apply a fixed width unless required.
