@@ -148,7 +148,7 @@ For providers, use the following code:
 
 The following HTML snippet can be used to create a widget which defaults to SIM Only. Please remember to replace <data-partner> to your partner ID.:
 
-'''
+```
 <div class="stickee-comparison-widget"
             data-sector="mobiles"
             data-partner="example"
@@ -156,7 +156,7 @@ The following HTML snippet can be used to create a widget which defaults to SIM 
             data-dealtype="simo"
             data-filters="">
 </div>
-'''
+```
 
 #### Makes
 
