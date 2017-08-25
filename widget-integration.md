@@ -26,7 +26,7 @@ sized container.
 
 ## Installation
 
-## JS Script
+### JS Script
 
 On the page or template you want the widget to appear add the following code to the <head> section of the page:
 
@@ -34,11 +34,11 @@ On the page or template you want the widget to appear add the following code to 
 
 This JS snippet only needs to be added once if you are taking both a mobiles and broadband widget.
 
-## HTML Placeholder
+### HTML Placeholder
 
 The script will look for a HTML element with the class .stickee-comparison-widget and replace this with the widget. The HTML element contains parameters that define the behaviour of the widget. Please note, the params provided are all required.
 
-### Broadband
+#### Broadband
 
 Please insert the following placeholder element in the page or template where you would like the widget to appear:
 
@@ -51,14 +51,11 @@ Please insert the following placeholder element in the page or template where yo
 </div>
 ```
 
-
 You can change the data-width parameter to suit the layout of your page- this can also be a percentage if required. The widget's height will change dynamically based on the content served. It is recommended that you don’t apply a fixed width unless required.
 
 There are two options for 'data-type': "full" or "mini." Mini reveals the postcode checker initially, then once a postcode has been entered, the results are displayed below.
 
-
-
-### Mobiles
+#### Mobiles
 
 Please insert the following placeholder element in the page or template where you would like the widget to appear:
 
@@ -78,7 +75,7 @@ There are two options for 'data-type': "full" or "mini." Mini allows you to choo
 
 ## Pre-filtering deals
 
-## Broadband
+### Broadband
 
 The following HTML snippets can be used to pre-filter broadband widgets. Please remember to replace <data-partner> to your partner ID.:
 
