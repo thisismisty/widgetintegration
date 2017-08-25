@@ -131,7 +131,7 @@ For providers, use the following code:
 </div>
 ```
 
-
+|               |            |                      |            |
 |---------------|------------|----------------------|------------|
 | BT            | ba3lLMM2yA | First Utility        | eyxlnJmlNP |
 | Virgin Media  | OBxpm3Zl97 | John Lewis Broadband | WPXpDwR2DN |
