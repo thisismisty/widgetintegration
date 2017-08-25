@@ -231,4 +231,4 @@ We can supply a full list of elements which can be individually styled.
 ## Further Support
 
 For further information about Stickee Comparison content units, please contact
-[info@stickeecomparison.co.uk](mailto: info@stickeecomparison.co.uk).
+info@stickeecomparison.co.uk.
