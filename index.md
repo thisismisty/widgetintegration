@@ -73,7 +73,7 @@ Please insert the following placeholder element in the page or template where yo
 
 You can change the data-width parameter to suit the layout of your page- this can also be a percentage if required. The widget's height will change dynamically based on the content served. It is recommended that you don’t apply a fixed width unless required.
 
-There are two options for 'data-type': "full" or "mini." "Mini" allows you to choose how many deals your widget displays by default on page load, for example “Mini-5” will display 5 deals, whist “Mini-1” will display 1 deal. 
+There are two options for 'data-type': "full" or "mini." "Mini" allows you to choose how many deals your widget displays by default on page load, for example “Mini-5” will display 5 deals, whist “Mini-1” will display 1 deal.
 
 ## Pre-filtering deals
 
@@ -200,7 +200,7 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ma
 </div>
 ```
 
-A full list of available models can be downloaded [here](https://docs.google.com/a/stickee.co.uk/spreadsheets/d/1940lJPcX8wB7BAhmeHTN4UzF-vlioNaa6sOJgpjLojA/edit?usp=sharing). 
+A full list of available models can be downloaded [here](https://docs.google.com/a/stickee.co.uk/spreadsheets/d/1940lJPcX8wB7BAhmeHTN4UzF-vlioNaa6sOJgpjLojA/edit?usp=sharing).
 
 #### Networks
 
