@@ -17,9 +17,9 @@ Adding a widget to your site takes just a snippet of HTML and JS code.
 [Broadband demo 2](http://example.stickeebroadband.co.uk/?widget=mini)
 
 ### Mobiles
-[Mobiles demo 1](http://example.stickeemobiles.co.uk/?widget=mini)
+[Mobiles demo 1](http://example.stickeemobiles.co.uk/?widget=full)
 
-[Mobiles demo 2](http://example.stickeemobiles.co.uk/?widget=mini)
+[Mobiles demo 2](http://example.stickeemobiles.co.uk/?widget=mini-5)
 
 The content units are fully responsive, and can be inserted into any page within any
 sized container.
