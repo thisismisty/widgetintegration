@@ -53,7 +53,7 @@ Please insert the following placeholder element in the page or template where yo
 </div>
 ```
 
-You can change the data-width parameter to suit the layout of your page- this can also be a percentage if required. The widget's height will change dynamically based on the content served. It is recommended that you don’t apply a fixed width unless required.
+You can change the data-width parameter to suit the layout of your page- this can also be a percentage if required. The widget's height will change dynamically based on the content served. **It is recommended that you don’t apply a fixed width unless required.**
 
 There are two options for 'data-type': "full" or "mini." "Mini" reveals the postcode checker initially, then once a postcode has been entered, the results are displayed below.
 
@@ -153,8 +153,7 @@ The following HTML snippet can be used to create a widget which defaults to SIM 
             data-sector="mobiles"
             data-partner="example"
             data-type="mini-4"
-            data-dealtype="simo"
-            data-filters="">
+            data-dealtype="simo">
 </div>
 ```
 
