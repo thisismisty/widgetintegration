@@ -1,6 +1,6 @@
 image: ruby:2.4
 
-job:
+pages:
     script:
         - bundle install
         - bundle exec middleman build --clean
