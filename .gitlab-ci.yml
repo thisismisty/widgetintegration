@@ -5,7 +5,6 @@ pages:
         - docker
     script:
         - bundle install
-        - gem install therubyracer
         - bundle exec middleman build --clean
     artifacts:
         paths:
