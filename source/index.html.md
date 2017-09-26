@@ -1,3 +1,9 @@
+---
+title: Stickee Widget
+search: true
+toc_footers:
+  - <a href="mailto:hello@stickee.co.uk">Powered by Stickee</a>
+---
 # Stickee Widget
 
 ## What we offer
@@ -30,7 +36,7 @@ sized container.
 
 On the page or template you want the widget to appear add the following code to the <head> section of the page:
 
-```
+```html
 <script src="//stickee-comparison.s3-eu-west-1.amazonaws.com/widget/stickee-comparison-widget-min.js" async></script>
 ```
 
@@ -44,10 +50,10 @@ The script will look for a HTML element with the class .stickee-comparison-widge
 
 Please insert the following placeholder element in the page or template where you would like the widget to appear:
 
-```
+```html
 <div class="stickee-comparison-widget"
     data-sector="broadband"
-    data-partner="stickee"
+    data-partner="example"
     data-type="mini"
     data-width="500">
 </div>
@@ -61,10 +67,10 @@ There are two options for 'data-type': "full" or "mini." "Mini" reveals the post
 
 Please insert the following placeholder element in the page or template where you would like the widget to appear:
 
-```
+```html
 <div class="stickee-comparison-widget"
     data-sector="mobiles"
-    data-partner="stickee"
+    data-partner="example"
     data-type="mini-5"
     data-width="500">
 </div>
@@ -79,26 +85,25 @@ There are two options for 'data-type': "full" or "mini." "Mini" allows you to ch
 
 ### Broadband
 
-The following HTML snippets can be used to pre-filter broadband widgets. Please remember to replace <data-partner> to your partner ID.:
 
-#### Broadband Only
+> Broadband Only
 
-```
+```html
 <div class="stickee-comparison-widget"
    data-sector="broadband"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[dealtype]=broadband">
 </div>
 ```
 
-#### Broadband and Phone
+> Broadband and Phone
 
-```
+```html
 <div class="stickee-comparison-widget"
    data-sector="broadband"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[dealtype]=broadband-phone">
@@ -106,31 +111,33 @@ The following HTML snippets can be used to pre-filter broadband widgets. Please 
 ```
 
 
-#### Broadband, Phone and TV
+> Broadband, Phone and TV
 
-```
+```html
 <div class="stickee-comparison-widget"
    data-sector="broadband"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[dealtype]=broadband-phone-tv">
 </div>
 ```
 
-#### Providers
+> Providers
 
-For providers, use the following code:
-
-```
+```html
+<!-- For providers, use the following code: -->
 <div class="stickee-comparison-widget"
    data-sector="broadband"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[suppliers][]=supplierID">
 </div>
 ```
+
+The following HTML snippets can be used to pre-filter broadband widgets.
+
 | Supplier     | Supplier ID | Supplier             | Supplier ID |
 |--------------|-------------|----------------------|-------------|
 | BT           | ba3lLMM2yA  | First Utility        | eyxlnJmlNP  |
@@ -141,14 +148,16 @@ For providers, use the following code:
 | EE           | eDnjZVVjAr  | SSE                  | 8ryp8nxl0x  |
 | Direct Save  | QvV2OQPjGD  | Vodafone             | KNvj4MPlX4  |
 
+<aside class="notice">
+Please remember to replace &lt;data-partner&gt; with your partner ID.
+</aside>
 
 ### Mobiles
 
-#### SIM Only widget
+> SIM Only widget
 
-The following HTML snippet can be used to create a widget which defaults to SIM Only. Please remember to replace <data-partner> to your partner ID.:
-
-```
+```html
+<!-- The following HTML snippet can be used to create a widget which defaults to SIM Only and shows 4 deals -->
 <div class="stickee-comparison-widget"
             data-sector="mobiles"
             data-partner="example"
@@ -157,19 +166,48 @@ The following HTML snippet can be used to create a widget which defaults to SIM 
 </div>
 ```
 
-#### Makes
+> Makes
 
-The following HTML snippet can be used to pre-filter mobiles widgets based on makes. Please remember to replace <data-partner> to your partner ID.:
-
-```
+```html
+<!-- The following HTML snippet can be used to pre-filter mobiles widgets based on make -->
 <div class="stickee-comparison-widget"
    data-sector="mobiles"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[make]=makeID">
 </div>
 ```
+
+> Models
+
+```html
+<!-- The following HTML snippet can be used to pre-filter mobiles widgets based on make and model -->
+<div class="stickee-comparison-widget"
+   data-sector="mobiles"
+   data-partner="example"
+   data-type="mini"
+   data-width="500"
+   data-filters="filters[make]=makeID&filters[model]=modelID">
+</div>
+```
+
+> Networks
+
+```html
+<!-- The following HTML snippet can be used to pre-filter mobiles widgets based on networks. -->
+<div class="stickee-comparison-widget"
+   data-sector="mobiles"
+   data-partner="example"
+   data-type="mini"
+   data-width="500"
+   data-filters="filters[networks]=networkID">
+</div>
+```
+
+The following HTML snippets can be used to pre-filter mobiles widgets based on makes and models.
+
+#### Makes
 
 | Make        | Make ID | Make     | Make ID |
 |-------------|---------|----------|---------|
@@ -185,35 +223,12 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ma
 | HTC         | 13      | ZTE      | 8       |
 | Huawei      | 12      |          |         |
 
+
 #### Models
 
-The following HTML snippet can be used to pre-filter mobiles widgets based on makes and models. Please remember to replace <data-partner> to your partner ID.:
-
-```
-<div class="stickee-comparison-widget"
-   data-sector="mobiles"
-   data-partner="stickee"
-   data-type="mini"
-   data-width="500"
-   data-filters="filters[make]=makeID&filters[model]=modelID">
-</div>
-```
-
-A full list of available models can be downloaded [here](https://docs.google.com/a/stickee.co.uk/spreadsheets/d/1940lJPcX8wB7BAhmeHTN4UzF-vlioNaa6sOJgpjLojA/edit?usp=sharing). 
-
+A full list of available models can be downloaded [here](https://docs.google.com/a/stickee.co.uk/spreadsheets/d/1940lJPcX8wB7BAhmeHTN4UzF-vlioNaa6sOJgpjLojA/edit?usp=sharing).
+ 
 #### Networks
-
-The following HTML snippet can be used to pre-filter mobiles widgets based on networks. Please remember to replace <data-partner> to your partner ID.:
-
-```
-<div class="stickee-comparison-widget"
-   data-sector="mobiles"
-   data-partner="stickee"
-   data-type="mini"
-   data-width="500"
-   data-filters="filters[networks]=networkID">
-</div>
-```
 
 | Network      | Network ID | Network     | Network ID |
 |--------------|------------|-------------|------------|
@@ -224,6 +239,11 @@ The following HTML snippet can be used to pre-filter mobiles widgets based on ne
 | EE           | 10         | giffgaff    | 13         |
 | BT           | 17         | Pop Telecom | 16         |
 | ID           | 18         | Lebara      | 28         |
+
+<aside class="notice">
+Please remember to replace &lt;data-partner&gt; with your partner ID.
+</aside>
+
 
 ## Tracking and Reporting
 
@@ -244,4 +264,4 @@ We can supply a full list of elements which can be individually styled.
 ## Further Support
 
 For further information about Stickee Comparison content units, please contact
-hello@stickee.co.uk.
+<a href="mailto:hello@stickee.co.uk">hello@stickee.co.uk</a>.
