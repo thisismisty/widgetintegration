@@ -1,0 +1,11 @@
+image: ruby:2.4
+
+job:
+    script:
+        - bundle install
+        - bundle exec middleman build --clean
+    artifacts:
+        paths:
+            - public
+    only:
+        - master
