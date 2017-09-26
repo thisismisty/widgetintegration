@@ -53,7 +53,7 @@ Please insert the following placeholder element in the page or template where yo
 ```html
 <div class="stickee-comparison-widget"
     data-sector="broadband"
-    data-partner="stickee"
+    data-partner="example"
     data-type="mini"
     data-width="500">
 </div>
@@ -70,7 +70,7 @@ Please insert the following placeholder element in the page or template where yo
 ```html
 <div class="stickee-comparison-widget"
     data-sector="mobiles"
-    data-partner="stickee"
+    data-partner="example"
     data-type="mini-5"
     data-width="500">
 </div>
@@ -91,7 +91,7 @@ There are two options for 'data-type': "full" or "mini." "Mini" allows you to ch
 ```html
 <div class="stickee-comparison-widget"
    data-sector="broadband"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[dealtype]=broadband">
@@ -103,7 +103,7 @@ There are two options for 'data-type': "full" or "mini." "Mini" allows you to ch
 ```html
 <div class="stickee-comparison-widget"
    data-sector="broadband"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[dealtype]=broadband-phone">
@@ -116,7 +116,7 @@ There are two options for 'data-type': "full" or "mini." "Mini" allows you to ch
 ```html
 <div class="stickee-comparison-widget"
    data-sector="broadband"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[dealtype]=broadband-phone-tv">
@@ -129,7 +129,7 @@ There are two options for 'data-type': "full" or "mini." "Mini" allows you to ch
 <!-- For providers, use the following code: -->
 <div class="stickee-comparison-widget"
    data-sector="broadband"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[suppliers][]=supplierID">
@@ -172,7 +172,7 @@ Please remember to replace &lt;data-partner&gt; with your partner ID.
 <!-- The following HTML snippet can be used to pre-filter mobiles widgets based on make -->
 <div class="stickee-comparison-widget"
    data-sector="mobiles"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[make]=makeID">
@@ -185,7 +185,7 @@ Please remember to replace &lt;data-partner&gt; with your partner ID.
 <!-- The following HTML snippet can be used to pre-filter mobiles widgets based on make and model -->
 <div class="stickee-comparison-widget"
    data-sector="mobiles"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[make]=makeID&filters[model]=modelID">
@@ -198,7 +198,7 @@ Please remember to replace &lt;data-partner&gt; with your partner ID.
 <!-- The following HTML snippet can be used to pre-filter mobiles widgets based on networks. -->
 <div class="stickee-comparison-widget"
    data-sector="mobiles"
-   data-partner="stickee"
+   data-partner="example"
    data-type="mini"
    data-width="500"
    data-filters="filters[networks]=networkID">
