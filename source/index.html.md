@@ -34,7 +34,7 @@ sized container.
 
 ### JS Script
 
-On the page or template you want the widget to appear add the following code to the <head> section of the page:
+On the page or template you want the widget to appear add the following code to the &lt;head&gt; section of the page:
 
 ```html
 <script src="//stickee-comparison.s3-eu-west-1.amazonaws.com/widget/stickee-comparison-widget-min.js" async></script>
@@ -44,7 +44,7 @@ This JS snippet only needs to be added once if you are taking both a mobiles and
 
 ### HTML Placeholder
 
-The script will look for a HTML element with the class .stickee-comparison-widget and replace this with the widget. The HTML element contains parameters that define the behaviour of the widget. Please note, the params provided are all required.
+The script will look for a HTML element with the class <code>.stickee-comparison-widget</code> and replace this with the widget. The HTML element contains parameters that define the behaviour of the widget. Please note, the params provided are all required.
 
 #### Broadband
 
