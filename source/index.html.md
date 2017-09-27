@@ -85,6 +85,9 @@ There are two options for 'data-type': "full" or "mini." "Mini" allows you to ch
 
 ### Broadband
 
+The following HTML snippets can be used to pre-filter broadband widgets based on package type.
+
+#### Broadband Only
 
 > Broadband Only
 
@@ -98,6 +101,10 @@ There are two options for 'data-type': "full" or "mini." "Mini" allows you to ch
 </div>
 ```
 
+This will display broadband only deals by default on page load.
+
+#### Broadband and Phone
+
 > Broadband and Phone
 
 ```html
@@ -110,6 +117,10 @@ There are two options for 'data-type': "full" or "mini." "Mini" allows you to ch
 </div>
 ```
 
+This will display broadband and phone deals by default on page load.
+
+
+#### Broadband, Phone and TV
 
 > Broadband, Phone and TV
 
@@ -122,6 +133,10 @@ There are two options for 'data-type': "full" or "mini." "Mini" allows you to ch
    data-filters="filters[dealtype]=broadband-phone-tv">
 </div>
 ```
+
+This will display broadband, phone and TV deals by default on page load.
+
+#### Providers
 
 > Providers
 
@@ -154,6 +169,10 @@ Please remember to replace &lt;data-partner&gt; with your partner ID.
 
 ### Mobiles
 
+The following HTML snippets can be used to pre-filter mobiles widgets based on makes and models and networks.
+
+#### SIM Only widget
+
 > SIM Only widget
 
 ```html
@@ -165,6 +184,10 @@ Please remember to replace &lt;data-partner&gt; with your partner ID.
             data-dealtype="simo">
 </div>
 ```
+
+You can create a widget which defaults to SIM Only deals on page load.
+
+#### Makes
 
 > Makes
 
@@ -179,6 +202,10 @@ Please remember to replace &lt;data-partner&gt; with your partner ID.
 </div>
 ```
 
+You can create a widget which pre-filters mobiles widgets based on make.
+
+#### Models
+
 > Models
 
 ```html
@@ -191,6 +218,10 @@ Please remember to replace &lt;data-partner&gt; with your partner ID.
    data-filters="filters[make]=makeID&filters[model]=modelID">
 </div>
 ```
+
+You can create a widget which pre-filters mobiles widgets based on model.
+
+#### Networks
 
 > Networks
 
@@ -205,7 +236,7 @@ Please remember to replace &lt;data-partner&gt; with your partner ID.
 </div>
 ```
 
-The following HTML snippets can be used to pre-filter mobiles widgets based on makes and models.
+You can create a widget which pre-filters mobiles widgets based on network.
 
 #### Makes
 
