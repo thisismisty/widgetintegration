@@ -204,6 +204,20 @@ You can create a widget which defaults to SIM Only deals on page load.
 
 You can create a widget which pre-filters mobiles widgets based on make.
 
+| Make        | Make ID | Make     | Make ID |
+|-------------|---------|----------|---------|
+| Alcatel     | 22      | Kodak    | 62      |
+| Amazon      | 61      | LG       | 6       |
+| Apple       | 19      | Lenovo   | 40      |
+| BlackBerry  | 2       | Motorola | 1       |
+| Caterpillar | 56      | Nokia    | 4       |
+| Dewalt      | 68      | Samsung  | 5       |
+| Doro        | 42      | Sony     | 54      |
+| Google      | 15      | Vodafone | 26      |
+| HP          | 35      | WileyFox | 66      |
+| HTC         | 13      | ZTE      | 8       |
+| Huawei      | 12      |          |         |
+
 #### Models
 
 > Models
@@ -221,6 +235,9 @@ You can create a widget which pre-filters mobiles widgets based on make.
 
 You can create a widget which pre-filters mobiles widgets based on model.
 
+A full list of available models can be downloaded [here](https://docs.google.com/a/stickee.co.uk/spreadsheets/d/1940lJPcX8wB7BAhmeHTN4UzF-vlioNaa6sOJgpjLojA/edit?usp=sharing).
+ 
+
 #### Networks
 
 > Networks
@@ -237,29 +254,6 @@ You can create a widget which pre-filters mobiles widgets based on model.
 ```
 
 You can create a widget which pre-filters mobiles widgets based on network.
-
-#### Makes
-
-| Make        | Make ID | Make     | Make ID |
-|-------------|---------|----------|---------|
-| Alcatel     | 22      | Kodak    | 62      |
-| Amazon      | 61      | LG       | 6       |
-| Apple       | 19      | Lenovo   | 40      |
-| BlackBerry  | 2       | Motorola | 1       |
-| Caterpillar | 56      | Nokia    | 4       |
-| Dewalt      | 68      | Samsung  | 5       |
-| Doro        | 42      | Sony     | 54      |
-| Google      | 15      | Vodafone | 26      |
-| HP          | 35      | WileyFox | 66      |
-| HTC         | 13      | ZTE      | 8       |
-| Huawei      | 12      |          |         |
-
-
-#### Models
-
-A full list of available models can be downloaded [here](https://docs.google.com/a/stickee.co.uk/spreadsheets/d/1940lJPcX8wB7BAhmeHTN4UzF-vlioNaa6sOJgpjLojA/edit?usp=sharing).
- 
-#### Networks
 
 | Network      | Network ID | Network     | Network ID |
 |--------------|------------|-------------|------------|
