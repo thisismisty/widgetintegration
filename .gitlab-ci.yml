@@ -1,0 +1,13 @@
+image: ruby:2.4
+
+pages:
+    tags:
+        - docker
+    script:
+        - bundle install
+        - bundle exec middleman build --clean
+    artifacts:
+        paths:
+            - public
+    only:
+        - master
