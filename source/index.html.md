@@ -286,15 +286,15 @@ palette/style guide and this will be applied by Stickee.
 
 We can supply a full list of elements which can be individually styled.
 
-# Stickee Speedtest Widget Integration and Configuration
+# Stickee Speed Test Widget
 
 ## Integration
-The Broadband Speedtest widget has been built with the intention of being integrated into partner websites by way of an iFrame.
-The following iFrame example should have `[partnername]` replaced with a valid partner. If omitted, the widget will load a default ‘stickee’ branded speedtest.
-
 ```html
 <iframe src="//widget-speedtest.stickee.co.uk/[partnername]" width="500" height="820"></iframe>
 ```
+
+The Broadband Speed Test widget has been built with the intention of being integrated into partner websites by way of an iFrame.
+The following iFrame example should have `[partnername]` replaced with a valid partner. If omitted, the widget will load a default ‘stickee’ branded Speed Test.
 
 Please note that this product is in beta and should be placed within a container with a width of 350px max in order to display across all breakpoints.
 
@@ -309,7 +309,7 @@ The speed test has configurable elements to change the look and feel to match a 
 
 ![Speedtest Gauge](https://s3-eu-west-1.amazonaws.com/stickee-comparison/docs/speed-test/speedtest.png "Speedtest Gauge")
 
-## Further Support
+# Further Support
 
 For further information about Stickee Comparison content units, please contact
 <a href="mailto:hello@stickee.co.uk">hello@stickee.co.uk</a>.
