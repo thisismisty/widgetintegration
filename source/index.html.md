@@ -286,6 +286,29 @@ palette/style guide and this will be applied by Stickee.
 
 We can supply a full list of elements which can be individually styled.
 
+# Stickee Speedtest Widget Integration and Configuration
+
+## Integration
+The Broadband Speedtest widget has been built with the intention of being integrated into partner websites by way of an iFrame.
+The following iFrame example should have `[partnername]` replaced with a valid partner. If omitted, the widget will load a default ‘stickee’ branded speedtest.
+
+```html
+<iframe src="//widget-speedtest.stickee.co.uk/[partnername]" width="500" height="820"></iframe>
+```
+
+Please note that this product is in beta and should be placed within a container with a width of 350px max in order to display across all breakpoints.
+
+## Configuration
+The speed test has configurable elements to change the look and feel to match a partner’s website. The following elements can be configured:
+
+|Variable|Description|Example|
+|--------|-----------|-------|
+|Gauge Colours|The colours used in the speed gauge. <br> <br>These are split into 3 separate; slow, average and fast (to denote the speed category of the broadband. <br><br> The colours are used as follows: <br> `slow` is used in the 0 to 20Mbs segment of the gauge. <br>`average` and `fast` are used to generate a gradient between 20Mbs and 140Mbs with fast being used as a solid colour thereafter|`slow: '#bf5345'` <br>`average: '#82a8bd'` <br>`fast: '#2f6e91'`|
+|Body font|The font URL and font-family declaration used for the general text within the speed test|This must be a Google font.|
+|CTA Colours|The colours used in the CTA (Start Test button). These are split into `background` and `text`|`background: '#5aaf0b'` <br>`text: '#ffffff'`|
+
+![Speedtest Gauge](https://s3-eu-west-1.amazonaws.com/stickee-comparison/docs/speed-test/speedtest.png "Speedtest Gauge")
+
 ## Further Support
 
 For further information about Stickee Comparison content units, please contact
