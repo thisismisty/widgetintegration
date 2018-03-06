@@ -290,7 +290,7 @@ We can supply a full list of elements which can be individually styled.
 
 ## Integration
 ```html
-<iframe src="//widget-speedtest.stickee.co.uk/[partnername]" width="500" height="820"></iframe>
+<iframe src="https://widget-speedtest.stickee.co.uk/[partnername]" width="500" height="820"></iframe>
 ```
 
 The Broadband Speed Test widget has been built with the intention of being integrated into partner websites by way of an iFrame.
